@@ -1,98 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--
-This is a simple skeleton for the whole fronted loaded with sample data to act as place holders for this project.
-The sample content will be provided for the user to browser through the project and explore the techniques used.
--->
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Personal-Resume-Profile</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style type="text/css"></style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Personal Project Site</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> <!-- fonts -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
+
 <body>
-<div></div><nav class="main-menu">
-    <ul>
+
+	<header>
+		<h2><a href="#">logo</a></h2> <!--can be changed to a logo or profile pic for personal reason was left as text -->
+		<!-- Start of navigation which is responsive-->
+                <nav>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </nav>
+
+            </header>
+
+	<!--first section welcome and current project redirection-->
+        <section class="first">
+            <div class="background-image" style="background-image: url(assets/img/background.jpg);"></div>
+            <h1><strong>Welcome</strong> to My Personal Profile</h1>
+            <h3>A small project for my Front-end module.</h3>
+            <a href="#" class="btn">Current Projects</a>
+        </section>
 
 
-        </li>
-        <li class="has-subnav">
-            <a href="pages/about.html">
-                <i class="fa fa-user"></i>
-                <span class="nav-text">
-                            About
-                        </span>
-            </a>
 
-        </li>
-        <li class="has-subnav">
-            <a href="pages/education.html">
-                <i class="fa fa-graduation-cap"></i>
-                <span class="nav-text">
-                            Education
-                        </span>
-            </a>
+        <footer>
+			<!--footer with copy right-->
+            <p>&copy; Copyright 2017 P14179083</p>
 
-        </li>
-        <li class="has-subnav">
-            <a href="pages/skills.html">
-                <i class="fa fa-code"></i>
-                <span class="nav-text">
-                            Skills
-                        </span>
-            </a>
+        </footer>
+    </body>
 
-        </li>
-
-    </ul>
-
-
-</nav>
-<header id="header">
-
-
-    <div >
-        <a href="pages/about.html" class="image avatar"></a>
-        <h1><strong>Hi</strong>, Welcome to my personal profile.<br />
-            the are 4 sections here made using front end technologies. <br />
-            So browse this awesomeness of HTML5, CSS3 and JavaScript.</h1>
-    </div>
-</header>
-<!--Main content -->
-<div id="main">
-
-    <!-- Part-one intro -->
-    <section id="one">
-        <header class="major">
-            <h2>Hey there, my name is Bhaumik and shortly i will be graduating in computer science<br />
-                Bellow you will find some of the information regarding my journey through education.</h2>
-        </header>
-        <p>I started of doing music with passion for both technology and music the obvious choice was to do Technology Music Production.<br/>
-            Thus, from GCSE to A-level i started doing just that...
-        </p>
-        <ul class="actions">
-            <li><a href="pages/about.html" class="button">Learn More</a></li>
-        </ul>
-    </section>
-    <!--Part-two redirect Skills-->
-    <section id="two">
-
-
-    </section>
-    <!--Part-three for contact/redirect to personal info-->
-    <section id="three">
-
-    </section>
-</div>
-<!-- Footer -->
-<footer id="footer">
-    <div>
-        &copy; Copyright 2017 by <a href="/">p14179083</a>. All Rights Reserved.
-
-    </div>
-</footer>
-<!--scripts will go below to load faster-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-</body>
-</html>
+    </html>
