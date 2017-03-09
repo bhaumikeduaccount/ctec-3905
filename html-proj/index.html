@@ -4,45 +4,172 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Personal Project Site</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> <!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0";>
 
+<div id="loader"></div>
+<div style="display:none;" id="loaderDiv" class="animate-bottom">
 	<header>
-		<h2><a href="#">logo</a></h2> <!--can be changed to a logo or profile pic for personal reason was left as text -->
-		<!-- Start of navigation which is responsive-->
-                <nav>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </nav>
 
-            </header>
+		<h2><a href="#">Bhaumik Bhatt(p14179083)</a></h2> <!--can be changed to a logo or profile pic for personal reason was left as text -->
 
-	<!--first section welcome and current project redirection-->
-        <section class="first">
-            <div class="background-image" style="background-image: url(assets/img/background.jpg);"></div>
-            <h1><strong>Welcome</strong> to My Personal Profile</h1>
-            <h3>A small project for my Front-end module.</h3>
-            <a href="#" class="btn">Current Projects</a>
-        </section>
+        <nav>
+            <ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#project">Projects</a></li>
+			<li><a href="#skill">Skill</a></li>
+			<li><a href="#contact">Contact</a></li>
+            </ul>
+		</nav>
+		<a href="javascript:" id="back-top"><i class="icon-chevron-up"></i></a>
+
+	</header>
 
 
+	<section class="first" id="home">
+		<div class="background-image" style="background-image: url(assets/img/background.jpg);"></div>
+		<h1><strong>Welcome</strong> to My Personal Profile</h1>
+		<h3>A small responsive website project for my Front-end module.</h3>
+	</section>
 
-        <footer>
-			<!--footer with copy right-->
-            <p>&copy; Copyright 2017 P14179083</p>
 
-        </footer>
-    </body>
+	<section class="my-work" id="project">
+		<h3 class="title">Some of my work</h3>
+		<p>Through out my academic journey I have done may projects and some of them are bellow have a look! Please give feedback any criticism is welcome.<br>
+            Click on one of the images for their representative project description.</p>
+		<hr>
 
-    </html>
+
+        <div style="max-width:500px">
+
+               <a href="#frontend"><img class="mySlides" src="assets/img/frontend.jpg" style="width: 100%;" ></a>
+                <a href="#lara"><img class="mySlides" src="assets/img/Laravel.jpg"  style="width:100%"></a>
+                <a href="#java"><img class="mySlides" src="assets/img/oracle_java-100026145-large.jpg" style="width:100%" alt></a>
+                <a href="#web"><img class="mySlides" src="assets/img/web-security.jpeg" style="width: 100%;" alt></a>
+
+        </div>
+
+	</section>
+	
+
+	<section class="skills" id="skill">
+        <hr>
+		<h3 class="title">Skills</h3>
+
+            <div class="contentContainer">
+                <div class="skillBar">
+                    <h4>HTML5</h4>
+                    <div class="skillBarContainer">
+                        <div class="skillBarValue value-90"></div>
+                    </div>
+                </div>
+                <div class="skillBar">
+                    <h4>CSS3</h4>
+                    <div class="skillBarContainer">
+                        <div class="skillBarValue value-80"></div>
+                    </div>
+                </div>
+                <div class="skillBar">
+                    <h4>Jquery</h4>
+                    <div class="skillBarContainer">
+                        <div class="skillBarValue value-30"></div>
+                    </div>
+                </div>
+                <div class="skillBar">
+                    <h4>Laravel</h4>
+                    <div class="skillBarContainer">
+                        <div class="skillBarValue value-60"></div>
+                    </div>
+                </div>
+                <div class="skillBar">
+                    <h4>Scala</h4>
+                    <div class="skillBarContainer">
+                        <div class="skillBarValue value-50"></div>
+                    </div>
+                </div>
+            </div>
+
+		<hr>
+
+        <h3 class="title"><a>My key interests in career are as follows: </a></h3>
+		<ul class="grid">
+            <li>
+                <i class="fa fa-tasks"></i>
+                <h4>Project Management</h4>
+                <p>Technical projects handling is one of my key interest in the computer science careers and regards to this i look forward to one day to become a project manager.</p>
+            </li>
+            <li>
+                <i class="fa fa-desktop"></i>
+                <h4>Web Development</h4>
+                <p>Currently I also have interest in Front-end and Back-end development in regards to HTML/CSS/JS and PHP/Laravel.</p>
+            </li>
+            <li>
+                <i class="fa fa-lock"></i>
+                <h4>Web Security</h4>
+                <p>I also have and am learning penetration testing and web security as part of my course and will look forward a career in any of these three.</p>
+            </li>
+			</ul>
+
+	</section>
+
+	<section class="projectDescription">
+        <hr>
+		<h3 class="title">My Projects Description Bellow:</h3>
+
+		<p class="projDec" id="lara">Laravel:Job portal for final year. <br> This project should allow its users to login/ register and allow to search jobs via search function and filter.</p>
+		<p class="projectCase">Final year project</p>
+
+		<p class="projDec" id="web">Slim: Developed an M2M application/site. <br> This project was a group work done for one of my course module. <br>
+            It allowed users to login and check messages and for admins to send messages. <br> It put emphasis on its security.
+        </p>
+		<p class="projectCase">Secure Web Application Project</p>
+
+		<p class="projDec" id="java">Scala: Developed a Tautology checker.</p>
+		<p class="projectCase">Functional Development</p>
+
+        <p class="projDec" id="frontend">HTML/CSS/JS: This it self is a project which ive done.</p>
+        <p class="projectCase">Front end development</p>
+	</section>
+
+
+	<section class="contact" id="contact">
+		<h3 class="title">Contact Me</h3>
+		<p>Please leave your email below, reply time is 3 to 5 days.</p>
+		<hr>
+
+		<form>
+			<input type="email" placeholder="Email">
+            <!-- Due to having no back end the form does not work but if implemented with backend it would work fine with few amendments -->
+			<a href="#" class="btn">Contact</a>
+		</form>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="https://github.com/bhaumikeduaccount/ctec-3905"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://github.com/bhaumikeduaccount/ctec-3905"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="https://github.com/bhaumikeduaccount/ctec-3905"><i class="	fa fa-windows"></i></a></li>
+		</ul>
+		<p>&copy; Copyright 2017 P14179083 Usage only for this project.</p>
+        <p>All references and acknowledgments in read file.</p>
+
+	</footer>
+</div>
+
+</body>
+<script src="assets/js/load.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/top.js"></script>
+<script src="assets/js/slide.js"></script>
+</html>
