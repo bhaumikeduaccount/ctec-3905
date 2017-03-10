@@ -1,4 +1,9 @@
 # Front End Web Development :- CTEC3905
+##P14179083
+
+##GitHub Pages Link 
+https://bhaumikeduaccount.github.io/
+
 # Introduction
 This is a personal profile website regarding the things i have done/achieved in education and my career interests.
 
@@ -22,8 +27,7 @@ For this a simple header with a caption was used for this. A simple background w
 
 With a top navigation and/or a logo which i scraped for development. The second choice which needed to be made was how to show users my current work.
 
-##GitHub Pages Link 
-https://bhaumikeduaccount.github.io/
+
 ##Section second Project
 
 For this a slide show was chosen with a click able redirection for a user which was adapted from W3Schools slide show tutorial 
@@ -155,3 +159,6 @@ With the site turning out as i planed i think if i would have chance to redo it 
  would be my only criticism for it as it is simple and doesn't have a back end. Moreover, maybe have some more themes which the user
  can change with a JS which allows the user to choose through setting their preferred theme 
  or a popup at loading for them to choose would allow for a better browsing experience.
+
+ ## Tools used
+ PHPstorm was used for this project along with chrome and firefox browsers for inspection and testing.
