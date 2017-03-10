@@ -338,20 +338,20 @@ header nav ul:last-child{
 }
 
 .skills .grid li{
-	padding: 0 30px;
+	padding: 0 32px;
 	flex-basis: 33%;
 	text-align: center;
 }
 
 .skills .grid li i{
-    font-size: 50px;
+    font-size: 52px;
     color: #ffffff;
     margin-bottom: 25px;
 }
 
 .skills .grid li h4{
 	color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 25px;
 }
 
@@ -392,9 +392,7 @@ header nav ul:last-child{
     width: 100%;
 }
 
-/*---------------------
-     skills Bars Reference to :https://www.w3schools.com/howto/howto_css_skill_bar.asp
----------------------*/
+/*skill Bars*/
 
 .skillBar {
     margin-bottom: 26px;
@@ -586,7 +584,7 @@ footer .fa-github-square, .fa-envelope {
 
 /*Media query break points with condition to be met*/
 
-@media screen and (max-width: 700px){
+@media (max-width: 700px){
 
 	footer{
 		padding: 80px 15px;

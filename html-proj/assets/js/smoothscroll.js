@@ -1,6 +1,4 @@
-/**
- * Created by bb-pc2 on 09/03/2017.
- */
+
 $(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
@@ -26,3 +24,4 @@ $(document).ready(function(){
     });
 });
 
+//https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll

@@ -1,6 +1,4 @@
-/**
- * Created by bb-pc2 on 09/03/2017.
- */
+
 //W3school acknowledgement
 var slideIndex = 0;
 carousel();
