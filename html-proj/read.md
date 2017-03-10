@@ -160,5 +160,5 @@ With the site turning out as i planed i think if i would have chance to redo it 
  can change with a JS which allows the user to choose through setting their preferred theme 
  or a popup at loading for them to choose would allow for a better browsing experience.
 
- #Tools used
+#Tools used
  PHPstorm was used for this project along with chrome and firefox browsers for inspection and testing.
