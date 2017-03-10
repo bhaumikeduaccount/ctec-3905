@@ -1,4 +1,6 @@
-
+/*-------------
+ 	Basic Layout defined
+-------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -36,7 +38,8 @@ a.btn{
 	text-align: center;
 }
 
-hr{
+/*a devider of sections */
+hr{ 
 	width: 350px;
 	height: 3px;
 	background-color: #2196F3;
@@ -52,6 +55,9 @@ section{
 
 	padding: 125px 100px;
 }
+
+
+/*Media query break points with condition for responsiveness by size of screen/pixle*/
 
 @media (max-width: 1000px){
 
@@ -91,7 +97,7 @@ ul.grid{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
+/* -- Back to top -- */
 #back-top {
     position: fixed;
     bottom: 20px;
@@ -133,7 +139,9 @@ ul.grid{
     top: 5px;
 }
 
-
+/*-------------
+ 	Header section
+-------------*/
 
 header{
 	position: absolute;
@@ -178,7 +186,7 @@ header nav ul:last-child{
     margin-right: 0;
 }
 
-
+/*Media query break points with condition for responsiveness for the header section for diffrent media size*/
 @media (max-width: 1000px){
 	header{
 		padding: 20px 50px;
@@ -196,6 +204,10 @@ header nav ul:last-child{
 	}
 }
 
+/*-------------
+ 	Site Load animation
+-------------*/
+/* Center the loader */
 #loader {
     position: absolute;
     left: 50%;
@@ -212,6 +224,7 @@ header nav ul:last-child{
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
+/*Spin*/
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
@@ -222,7 +235,7 @@ header nav ul:last-child{
     100% { transform: rotate(360deg); }
 }
 
-
+/* Add animation to "page content" */
 .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
@@ -230,7 +243,7 @@ header nav ul:last-child{
     animation-name: animatebottom;
     animation-duration: 1s
 }
-
+/*animation*/
 @-webkit-keyframes animatebottom {
     from { bottom:-100px; opacity:0 }
     to { bottom:0px; opacity:1 }
@@ -245,7 +258,11 @@ header nav ul:last-child{
     display: none;
     text-align: center;
 }
+/*----END load animation code-----*/
 
+/*----------------
+ 	First Section
+----------------*/
 
 .first{
 	position: relative;
@@ -289,7 +306,7 @@ header nav ul:last-child{
 }
 
 
-
+/*Media query break points with condition for various size of display*/
 @media (max-width: 800px){
 
 	.first{
@@ -307,12 +324,14 @@ header nav ul:last-child{
 
 
 }
-
+/*setting back color for section my work with slide show*/
 .my-work{
     background-color: #404040;
 }
 
-
+/*----------------------
+ 	My Skills/Interests Reference: w3school: https://www.w3schools.com/howto/howto_css_skill_bar.asp
+----------------------*/
 
 .skills{
 	background-color: #404040;
@@ -339,6 +358,7 @@ header nav ul:last-child{
 .skills .grid li p{
     margin: 0;
 }
+/*Media query break points with condition*/
 
 @media (max-width: 1000px){
 
@@ -372,6 +392,9 @@ header nav ul:last-child{
     width: 100%;
 }
 
+/*///////////////////////////////////////////////////////
+    // skills Bars \\ Reference to :https://www.w3schools.com/howto/howto_css_skill_bar.asp
+///////////////////////////////////////////////////////*/
 
 .skillBar {
     margin-bottom: 26px;
@@ -429,6 +452,11 @@ header nav ul:last-child{
 .value-100 { width: 100%; }
 
 
+
+/*--------------------
+ 	Project Description Section
+--------------------*/
+
 .projectDescription{
 	background-color: #404040;
 }
@@ -451,7 +479,7 @@ header nav ul:last-child{
 .projectDescription .projectCase:last-child{
     margin-bottom: 0;
 }
-
+/*Media query break points with condition */
 @media (max-width: 1000px){
 
 	.projectDescription .projDec{
@@ -463,6 +491,12 @@ header nav ul:last-child{
 	}
 
 }
+
+
+
+/*---------------------
+ 	Contact Section
+---------------------*/
 
 .contact{
 	background-color: #404040;
@@ -489,7 +523,7 @@ header nav ul:last-child{
 	padding: 18px 42px;
 }
 
-
+/*Media query break points with condition */
 @media (max-width: 800px){
 
 	.contact form input{
@@ -498,6 +532,13 @@ header nav ul:last-child{
 	}
 
 }
+
+
+
+
+/*-------------
+ 	Footer
+-------------*/
 
 footer{
 	display: flex;
@@ -540,6 +581,8 @@ footer p a{
 footer .fa-github-square, .fa-facebook-square, 	.fa-windows {
     color: white;
 }
+
+/*Media query break points with condition to be met*/
 
 @media (max-width: 700px){
 
